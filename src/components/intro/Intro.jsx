@@ -1,5 +1,6 @@
 import React from 'react'
 import "./intro.css"
+import Me from "../../images/headshot.jpeg"
 
 function Intro(){
   return (
@@ -10,14 +11,21 @@ function Intro(){
             <h1 className='i-name'>Nicholas Golston</h1>
             <div className="i-title">
                 <div className="i-title-wrapper">
-                    <div className="-title-item">Web Developer</div>
-                    <div className="-title-item">Software Developer</div>
-                    <div className="-title-item">Full-Stack Developer</div>
+                    <div className="i-title-item">Web Developer</div>
+                    <div className="i-title-item">Software Developer</div>
+                    <div className="i-title-item">Full-Stack Developer</div>
                     </div>
                 </div>
+                <p className="i-desc">
+                Junior full stack web developer with a background in IT working on desktops/servers.
+                </p>
             </div>    
+            
         </div>
-        <div className='i-right'>right</div>
+        <div className='i-right'>
+            <div className="i-bg"></div>
+            <img src={Me} alt="" className='i-img' />
+            </div>
     </div>
   )
 }

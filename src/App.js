@@ -1,5 +1,11 @@
+import Intro from "./components/intro/Intro";
+
 function App() {
-  return <div className="app">home</div>;
+  return (
+    <div>
+      <Intro />
+    </div>
+  );
 }
 
 export default App;

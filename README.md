@@ -1,4 +1,31 @@
-# Getting Started with Create React App
+# React-Portfolio
+
+![Badge for GitHub repo top language](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+## Description
+
+React Portfolio V1
+
+## Usage
+
+![Screenshot](./src/images/Screenshot.png)
+
+- [Website](https://ngolston.herokuapp.com)
+- [Github](https://github.com/ngolston/react-portfolio)
+- README.md
+
+## Technology
+
+- HTML
+- CSS
+- JS
+- React
+
+## Credits
+
+- And Everyone Else 😁🙏🏾
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
